@@ -16,3 +16,6 @@ servlet:
 image:
   local: true
   
+onesignal:
+ id: ${onesignal.id}
+  
