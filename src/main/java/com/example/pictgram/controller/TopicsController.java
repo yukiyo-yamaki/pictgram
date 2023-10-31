@@ -100,7 +100,9 @@ public class TopicsController {
 			list.add(form);
 		}
 		model.addAttribute("list", list);
-
+		
+		model.addAttribute("hasFooter", true);
+		
 		return "topics/index";
 	}
 	@RequestMapping(value = "/topics/topic.csv", produces = MediaType.APPLICATION_OCTET_STREAM_VALUE
